@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API_ID = 35292658
-API_HASH = "a14fdc9ed8e1456c9570381024954dOb"
+API_HASH = "a14fdc9ed8e1456c9570381024954d0b"
 BOT_TOKEN = "8354690348:AAFp1NFVp2QjTMfHvXQNLaViNeqfFpSU8Zg"
 
 app = Client("forwarder_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
