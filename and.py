@@ -215,3 +215,7 @@ async def confirm_cancel_handler(client, cb):
     elif cb.data == "cancel_forward":
         preview_videos = []
         await cb.message.reply("❌ Forwarding cancelled.")
+
+if __name__ == "__main__":
+    print("Bot is starting...")
+    app.run()
