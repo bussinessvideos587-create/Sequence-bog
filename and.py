@@ -3,14 +3,14 @@ import re
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = 35292658
+API_HASH = "a14fdc9ed8e1456c9570381024954dOb"
+BOT_TOKEN = "8354690348:AAFp1NFVp2QjTMfHvXQNLaViNeqfFpSU8Zg"
 
 app = Client("forwarder_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-SOURCE_CHAT = None
-TARGET_CHAT = None
+SOURCE_CHAT = -1003314001250
+TARGET_CHAT = -1003337634077
 
 START_MSG_ID = None
 END_MSG_ID = None
